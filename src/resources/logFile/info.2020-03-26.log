@@ -1,0 +1,403 @@
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585181243800225029
+backUrl-->http://dongtian.vipgz1.idcfengye.com/#/order
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.vipgz1.idcfengye.com/#/order
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200326080724
+merId-->777290058177050
+payTimeout-->20200326082224
+currencyCode-->156
+signMethod-->01
+txnAmt-->1500
+riskRateInfo-->{commodityName=测试商品名称}
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.vipgz1.idcfengye.com/#/order&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.vipgz1.idcfengye.com/#/order&merId=777290058177050&orderId=1585181243800225029&payTimeout=20200326082224&riskRateInfo={commodityName=测试商品名称}&signMethod=01&txnAmt=1500&txnSubType=01&txnTime=20200326080724&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[f346d4c373c89b01f4a7ff178e284e53cf6a3099ccdc24111e462d8bc12c1891]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585181243800225029"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.vipgz1.idcfengye.com/#/order"/><input type="hidden" name="signature" id="signature" value="ZuWSCsoqGBni7leKYSOV5Of3PhycmWfVaC1dWddhQ100YbaE9J7H1KLowsFtb6wjALwVQFC5OdUzV/VJKodi+/8+IfC6ZrJruzlU2Tym/OpY/kbVcNs2Bo6lev+e5WaOtU4Hn7A2WNgSzGbSSeeWiJTy+0ooQfit4CLlbXgH89EpnqYGrC0XHvlZsWhuxFteneQQeevg7ktDb3qFgCvl/Jn67e1ts55+EjDXkCz2GFQAex2gMJ5gugZ3vdwvRTjG/Xguz0Pmcj+k1aiQBU5vrZ8TsU3MyghSxyDRr9xwE90ZMsq+mNLgoQpllGxy3tKDpbLR/0Y+fIV9ahFKqnaUeQ=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.vipgz1.idcfengye.com/#/order"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200326080724"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200326082224"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1500"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{commodityName=测试商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585181661167335118
+backUrl-->http://dongtian.vipgz1.idcfengye.com/#/order
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.vipgz1.idcfengye.com/#/order
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200326081422
+merId-->777290058177050
+payTimeout-->20200326082922
+currencyCode-->156
+signMethod-->01
+txnAmt-->1000
+riskRateInfo-->{commodityName=测试商品名称}
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.vipgz1.idcfengye.com/#/order&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.vipgz1.idcfengye.com/#/order&merId=777290058177050&orderId=1585181661167335118&payTimeout=20200326082922&riskRateInfo={commodityName=测试商品名称}&signMethod=01&txnAmt=1000&txnSubType=01&txnTime=20200326081422&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[d166fbf940f43b6afb88f7e8bf4afe802f22dab8dc0d7308ddb7b5cdf4c02d24]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585181661167335118"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.vipgz1.idcfengye.com/#/order"/><input type="hidden" name="signature" id="signature" value="SpUAOvib3um3oW5hnxD3XUTS40LO/ZuqaCFaKhdgT4zNcjMHrYpw/qRcEoEvrns/eexi4/9UjvFiOl152a+gzkvKdkhLixSj4kvAbp7H4no0mr9vT6AO0bkZ9Cd8JKvfssBt90alNh8bOoFFiZfbkUWqWvVrBG3+N6oXKDSjRLUdqWBdf0y2ycQh9VR2rstZEa5YHfCT8Hf3ag8awAcflaMK54Sco7NyN76mWCFVFf6xyDnkHxDNJFjVCsNBCPZ4V1OTUErCOPdOkc5eFigb/oQp/s18yhqJ+Fz0I+KjI1NoCvaf8vgJhvz4rYHUsSf52nVsWMQuYD2UoLvIWoc8qA=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.vipgz1.idcfengye.com/#/order"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200326081422"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200326082922"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1000"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{commodityName=测试商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 14780 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 302ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 10603 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000182: No default (no-argument) constructor for class: com.dongtian.orderingsystem.pojo.User (class must be instantiated by Interceptor)
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 34.908 seconds (JVM running for 38.918)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 11 ms
+No mapping for GET /ordering-system/user/index
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 27556 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 173ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5674 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000182: No default (no-argument) constructor for class: com.dongtian.orderingsystem.pojo.User (class must be instantiated by Interceptor)
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 21.799 seconds (JVM running for 24.861)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 52 ms
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 11088 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 451ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 203ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 20975 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000182: No default (no-argument) constructor for class: com.dongtian.orderingsystem.pojo.User (class must be instantiated by Interceptor)
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 49.86 seconds (JVM running for 53.784)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 14 ms
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 5696 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 271ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 10995 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000182: No default (no-argument) constructor for class: com.dongtian.orderingsystem.pojo.User (class must be instantiated by Interceptor)
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 32.688 seconds (JVM running for 36.86)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 32 ms
+SQL Error: 1054, SQLState: 42S22
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 26884 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 204ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 45ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 6816 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000182: No default (no-argument) constructor for class: com.dongtian.orderingsystem.pojo.User (class must be instantiated by Interceptor)
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 21.881 seconds (JVM running for 25.382)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 12 ms
+Closing JPA EntityManagerFactory for persistence unit 'default'
+{dataSource-1} closed
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 27576 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 272ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 63ms. Found 0 Redis repository interfaces.
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 16764 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 211ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4646 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000182: No default (no-argument) constructor for class: com.dongtian.orderingsystem.pojo.User (class must be instantiated by Interceptor)
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 22.585 seconds (JVM running for 26.598)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 12 ms
+Closing JPA EntityManagerFactory for persistence unit 'default'
+{dataSource-1} closed
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 26484 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 292ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 69ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 6830 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000182: No default (no-argument) constructor for class: com.dongtian.orderingsystem.pojo.User (class must be instantiated by Interceptor)
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 26.837 seconds (JVM running for 33.858)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 15 ms
+Closing JPA EntityManagerFactory for persistence unit 'default'
+{dataSource-1} closed
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 22620 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 199ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2878 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000182: No default (no-argument) constructor for class: com.dongtian.orderingsystem.pojo.User (class must be instantiated by Interceptor)
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 12.886 seconds (JVM running for 17.015)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 11 ms
+Closing JPA EntityManagerFactory for persistence unit 'default'
+{dataSource-1} closed

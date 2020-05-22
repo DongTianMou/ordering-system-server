@@ -1,0 +1,370 @@
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 24248 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 277ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentInfoDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 46ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 7265 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 21.397 seconds (JVM running for 25.503)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 14 ms
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 6892 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 174ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentInfoDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 41ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3834 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 14.156 seconds (JVM running for 18.549)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 12 ms
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585096146882806091
+backUrl-->http://dongtian.viphk.ngrok.org/pay/callback/asyn
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.viphk.ngrok.org/front/product/list
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200325145847
+merId-->777290058177050
+payTimeout-->20200325151357
+currencyCode-->156
+signMethod-->01
+txnAmt-->1000
+riskRateInfo-->{commodityName=测试商品名称}
+add BC provider
+================= SYS INFO begin====================
+os_name:Windows 10
+os_arch:amd64
+os_version:10.0
+java_vm_specification_version:1.8
+java_vm_specification_vendor:Oracle Corporation
+java_vm_specification_name:Java Virtual Machine Specification
+java_vm_version:25.144-b01
+java_vm_name:Java HotSpot(TM) 64-Bit Server VM
+java.version:1.8.0_144
+java.vm.vendor=[Oracle Corporation]
+java.version=[1.8.0_144]
+Providers List:
+1.SUN
+2.SunRsaSign
+3.SunEC
+4.SunJSSE
+5.SunJCE
+6.SunJGSS
+7.SunSASL
+8.XMLDSig
+9.SunPCSC
+10.SunMSCAPI
+11.BC
+================= SYS INFO end=====================
+加载签名证书==>/certs/acp_test_sign.pfx
+Load RSA CertPath=[/certs/acp_test_sign.pfx],Pwd=[000000],type=[PKCS12]
+InitSignCert Successful. CertId=[68759663125]
+加载中级证书==>D:/certs/acp_test_middle.cer
+[D:/certs/acp_test_middle.cer][CertId=117191299423423768281798]
+Load MiddleCert Successful
+加载根证书==>D:/certs/acp_test_root.cer
+[D:/certs/acp_test_root.cer][CertId=387593676442880368392934]
+Load RootCert Successful
+加载敏感信息加密证书==>D:/certs/acp_test_enc.cer
+[D:/certs/acp_test_enc.cer][CertId=69026275926]
+Load EncryptCert Successful
+WARN: acpsdk.encryptTrackKey.modulus or acpsdk.encryptTrackKey.exponent is empty
+加载验证签名证书目录==>null 注：如果请求报文中version=5.1.0那么此验签证书目录使用不到，可以不需要设置（version=5.0.0必须设置）。
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.viphk.ngrok.org/pay/callback/asyn&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.viphk.ngrok.org/front/product/list&merId=777290058177050&orderId=1585096146882806091&payTimeout=20200325151357&riskRateInfo={commodityName=测试商品名称}&signMethod=01&txnAmt=1000&txnSubType=01&txnTime=20200325145847&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[739622334db5f7174a6b70d8e4464117d8e19162eec21e53ccf0edb178a48b3c]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585096146882806091"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.viphk.ngrok.org/pay/callback/asyn"/><input type="hidden" name="signature" id="signature" value="zPLevXdrSvGPSQ4eF15Y9KBu3aUnXXJGpZAReHrr4ZedNIqpgrrARRYkvCUz4JXSKbBt/U9AR73TSk8Ft+31kfE8z7YXnrijLQT3LR71Nk9q0zfuQTu+O1hJT3x1oX8QpVQ4d4q41F/KkJWsVCAbRZ+SHWOYaaQt8rGzN/jYxhqH5I1GySF4xSh6P2xfD6LH9L38QhxxhrEWk3jRvnTtw0P/Me0uxyCTxPv/H1Kumo6WhmYeLKYKZXGNBU0q76HRFYnTYl06SgeideUTQZqL1cRGRC2tlGJKVDoJImbFJpqDj4h38/+QVpsxer8KMqrL/C0IhwFCsZ8jj06sPyXRlQ=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.viphk.ngrok.org/front/product/list"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200325145847"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200325151357"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1000"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{commodityName=测试商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+Closing JPA EntityManagerFactory for persistence unit 'default'
+{dataSource-1} closed
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 6760 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 137ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentInfoDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1951 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 8.615 seconds (JVM running for 11.212)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 10 ms
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585119966892104225
+backUrl-->http://dongtian.viphk.ngrok.org/pay/callback/asyn
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.viphk.ngrok.org/front/product/list
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200325150609
+merId-->777290058177050
+payTimeout-->20200325152109
+currencyCode-->156
+signMethod-->01
+txnAmt-->1500
+riskRateInfo-->{commodityName=测试商品名称}
+add BC provider
+================= SYS INFO begin====================
+os_name:Windows 10
+os_arch:amd64
+os_version:10.0
+java_vm_specification_version:1.8
+java_vm_specification_vendor:Oracle Corporation
+java_vm_specification_name:Java Virtual Machine Specification
+java_vm_version:25.144-b01
+java_vm_name:Java HotSpot(TM) 64-Bit Server VM
+java.version:1.8.0_144
+java.vm.vendor=[Oracle Corporation]
+java.version=[1.8.0_144]
+Providers List:
+1.SUN
+2.SunRsaSign
+3.SunEC
+4.SunJSSE
+5.SunJCE
+6.SunJGSS
+7.SunSASL
+8.XMLDSig
+9.SunPCSC
+10.SunMSCAPI
+11.BC
+================= SYS INFO end=====================
+加载签名证书==>/certs/acp_test_sign.pfx
+Load RSA CertPath=[/certs/acp_test_sign.pfx],Pwd=[000000],type=[PKCS12]
+InitSignCert Successful. CertId=[68759663125]
+加载中级证书==>D:/certs/acp_test_middle.cer
+[D:/certs/acp_test_middle.cer][CertId=117191299423423768281798]
+Load MiddleCert Successful
+加载根证书==>D:/certs/acp_test_root.cer
+[D:/certs/acp_test_root.cer][CertId=387593676442880368392934]
+Load RootCert Successful
+加载敏感信息加密证书==>D:/certs/acp_test_enc.cer
+[D:/certs/acp_test_enc.cer][CertId=69026275926]
+Load EncryptCert Successful
+WARN: acpsdk.encryptTrackKey.modulus or acpsdk.encryptTrackKey.exponent is empty
+加载验证签名证书目录==>null 注：如果请求报文中version=5.1.0那么此验签证书目录使用不到，可以不需要设置（version=5.0.0必须设置）。
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.viphk.ngrok.org/pay/callback/asyn&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.viphk.ngrok.org/front/product/list&merId=777290058177050&orderId=1585119966892104225&payTimeout=20200325152109&riskRateInfo={commodityName=测试商品名称}&signMethod=01&txnAmt=1500&txnSubType=01&txnTime=20200325150609&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[6dcd9d3427e74162689cef6fa21a39c09c0f0c8f6003bf9acddfee77c61b0f0c]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585119966892104225"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.viphk.ngrok.org/pay/callback/asyn"/><input type="hidden" name="signature" id="signature" value="kWl4VzshbNBkZlb0HfDrmf26pvoFUxgbeQFWO5zMjuEggOXmMONLOR4LXaewASiEVi4iqbaUfUYNk2hiQ6v1Ia7Aieut0Dy6o7e2P0h3nPBzcDhQ1W8i122oiQUDsP4gbrJQ9Rzaz0A1ND8ICUC05A3/WWnxQJshH/DoHNSTDd6/qKKXrRdtY969np9ZiWevGB1Dj6xWZWY+zXDL+ZU+TT9G/yJgb7aFIECCs0L+nWB426n9h9/PsBE7gl/61brwlBEZRKJ/yqXRNr6uIJ2G5tIZWFWIyMRr0gXhsUXXWci7SWA1SHG8INm1w3rBc+Adjt6FJVVGCs0rJgNoLCusgA=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.viphk.ngrok.org/front/product/list"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200325150609"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200325152109"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1500"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{commodityName=测试商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585120307185235864
+backUrl-->http://dongtian.viphk.ngrok.org/pay/callback/asyn
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.viphk.ngrok.org/front/product/list
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200325151148
+merId-->777290058177050
+payTimeout-->20200325152648
+currencyCode-->156
+signMethod-->01
+txnAmt-->1500
+riskRateInfo-->{commodityName=测试商品名称}
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.viphk.ngrok.org/pay/callback/asyn&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.viphk.ngrok.org/front/product/list&merId=777290058177050&orderId=1585120307185235864&payTimeout=20200325152648&riskRateInfo={commodityName=测试商品名称}&signMethod=01&txnAmt=1500&txnSubType=01&txnTime=20200325151148&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[c177db06359a34a9db6707a6397a10242386fe05e1c91ec952ae6be8f008c0e0]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585120307185235864"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.viphk.ngrok.org/pay/callback/asyn"/><input type="hidden" name="signature" id="signature" value="InJpJUxC72BwWF1cJjxUNz5WyO+bEbZ4UVG8znR/CF4W+KtpEUJfhOWCY5Z0NxcTFqnRiw2qpHmyR+G5XQGJbcEhXEddy1hvdEBLLbZmAaXt9matMVgW2fuc0GAIPjvo0Pc69sIJxQduRbnbdYu/VER6wKwOPH6P3WDT4PiTFJ+dyIJLnGUSmCLT+XkwyBOkkJY2bfQMP0lTZmEguft9bNqaRHvDACU2lrs6gLkDfchB0tdMcIa0ht3uFx3ljVcYie/PjwABRLHPpNJcKWXAD021/9yv444N9S5dX4Cq5+1ZJm/m8c1carDDdfj0ZoNQNITWjDQNAbQIE3vRYSi4IA=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.viphk.ngrok.org/front/product/list"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200325151148"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200325152648"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1500"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{commodityName=测试商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 5060 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 133ms. Found 6 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentInfoDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2038 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 8.693 seconds (JVM running for 11.429)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 9 ms
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585122323115541262
+backUrl-->http://dongtian.vipgz1.idcfengye.com/#/order
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.viphk.ngrok.org/front/product/list
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200325154524
+merId-->777290058177050
+payTimeout-->20200325160024
+currencyCode-->156
+signMethod-->01
+txnAmt-->1900
+riskRateInfo-->{commodityName=测试商品名称}
+add BC provider
+================= SYS INFO begin====================
+os_name:Windows 10
+os_arch:amd64
+os_version:10.0
+java_vm_specification_version:1.8
+java_vm_specification_vendor:Oracle Corporation
+java_vm_specification_name:Java Virtual Machine Specification
+java_vm_version:25.144-b01
+java_vm_name:Java HotSpot(TM) 64-Bit Server VM
+java.version:1.8.0_144
+java.vm.vendor=[Oracle Corporation]
+java.version=[1.8.0_144]
+Providers List:
+1.SUN
+2.SunRsaSign
+3.SunEC
+4.SunJSSE
+5.SunJCE
+6.SunJGSS
+7.SunSASL
+8.XMLDSig
+9.SunPCSC
+10.SunMSCAPI
+11.BC
+================= SYS INFO end=====================
+加载签名证书==>/certs/acp_test_sign.pfx
+Load RSA CertPath=[/certs/acp_test_sign.pfx],Pwd=[000000],type=[PKCS12]
+InitSignCert Successful. CertId=[68759663125]
+加载中级证书==>D:/certs/acp_test_middle.cer
+[D:/certs/acp_test_middle.cer][CertId=117191299423423768281798]
+Load MiddleCert Successful
+加载根证书==>D:/certs/acp_test_root.cer
+[D:/certs/acp_test_root.cer][CertId=387593676442880368392934]
+Load RootCert Successful
+加载敏感信息加密证书==>D:/certs/acp_test_enc.cer
+[D:/certs/acp_test_enc.cer][CertId=69026275926]
+Load EncryptCert Successful
+WARN: acpsdk.encryptTrackKey.modulus or acpsdk.encryptTrackKey.exponent is empty
+加载验证签名证书目录==>null 注：如果请求报文中version=5.1.0那么此验签证书目录使用不到，可以不需要设置（version=5.0.0必须设置）。
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.vipgz1.idcfengye.com/#/order&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.viphk.ngrok.org/front/product/list&merId=777290058177050&orderId=1585122323115541262&payTimeout=20200325160024&riskRateInfo={commodityName=测试商品名称}&signMethod=01&txnAmt=1900&txnSubType=01&txnTime=20200325154524&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[d8bc23fa9efa90f37fbe54af7a34ecad6eabe077c80c93360727e768a3709fef]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585122323115541262"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.vipgz1.idcfengye.com/#/order"/><input type="hidden" name="signature" id="signature" value="UY1PbbG0kNiva8E71VSOVSNJrUoHQGYFwurWJtPU39KoWq9mvYnhwLwtOhlgg5R7xX2aGBWSrqbvnmKNQyb5U+5ja/OLmHnH69hop3LKcX+086aooxvu7rNW7ou++sXl96WpG22BrlAfiT6I+N2V6BSOYdijyd+bnaR+wy9BibiY/tTQZ5t2lTVxPRT+71o+GsvCWF9xj4YPxDAbqB+YX6xeK9nu3EV57EsWAybpy3ygsJUH2a4b3cTVHGoW66YiUuunncTScD61sujlywWVFeLJGGVY5fi1SK/Lsk8V5AbMa92tx2C1lZ30gUgeam7plNtCtcA4x6wfSXHecxwwXg=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.viphk.ngrok.org/front/product/list"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200325154524"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200325160024"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1900"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{commodityName=测试商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>

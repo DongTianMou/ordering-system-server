@@ -1,0 +1,2025 @@
+Starting OrderingSystemApplication on DESKTOP-ER1O27V with PID 28160 (D:\IDEAProject\ordering-system\target\classes started by Dong in D:\IDEAProject\ordering-system)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.dongtian.orderingsystem]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 244ms. Found 7 JPA repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.OrderInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.PaymentTypeRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dongtian.orderingsystem.dao.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.31]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 7356 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.12.Final
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+{dataSource-1} inited
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/ordering-system'
+Started OrderingSystemApplication in 29.509 seconds (JVM running for 34.289)
+从classpath: /D:/IDEAProject/ordering-system/target/classes/ 获取属性文件acp_sdk.properties
+开始从属性文件中加载配置项
+配置项：私钥签名证书路径==>acpsdk.signCert.path==>/certs/acp_test_sign.pfx 已加载
+配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>D:/certs/acp_test_enc.cer 已加载
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 10 ms
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585658774861918390
+backUrl-->http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585658774861918390
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200331204616
+merId-->777290058177050
+payTimeout-->20200331210116
+currencyCode-->156
+signMethod-->01
+txnAmt-->1500
+riskRateInfo-->{商品名称}
+add BC provider
+================= SYS INFO begin====================
+os_name:Windows 10
+os_arch:amd64
+os_version:10.0
+java_vm_specification_version:1.8
+java_vm_specification_vendor:Oracle Corporation
+java_vm_specification_name:Java Virtual Machine Specification
+java_vm_version:25.144-b01
+java_vm_name:Java HotSpot(TM) 64-Bit Server VM
+java.version:1.8.0_144
+java.vm.vendor=[Oracle Corporation]
+java.version=[1.8.0_144]
+Providers List:
+1.SUN
+2.SunRsaSign
+3.SunEC
+4.SunJSSE
+5.SunJCE
+6.SunJGSS
+7.SunSASL
+8.XMLDSig
+9.SunPCSC
+10.SunMSCAPI
+11.BC
+================= SYS INFO end=====================
+加载签名证书==>/certs/acp_test_sign.pfx
+Load RSA CertPath=[/certs/acp_test_sign.pfx],Pwd=[000000],type=[PKCS12]
+InitSignCert Successful. CertId=[68759663125]
+加载中级证书==>D:/certs/acp_test_middle.cer
+[D:/certs/acp_test_middle.cer][CertId=117191299423423768281798]
+Load MiddleCert Successful
+加载根证书==>D:/certs/acp_test_root.cer
+[D:/certs/acp_test_root.cer][CertId=387593676442880368392934]
+Load RootCert Successful
+加载敏感信息加密证书==>D:/certs/acp_test_enc.cer
+[D:/certs/acp_test_enc.cer][CertId=69026275926]
+Load EncryptCert Successful
+WARN: acpsdk.encryptTrackKey.modulus or acpsdk.encryptTrackKey.exponent is empty
+加载验证签名证书目录==>null 注：如果请求报文中version=5.1.0那么此验签证书目录使用不到，可以不需要设置（version=5.0.0必须设置）。
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585658774861918390&merId=777290058177050&orderId=1585658774861918390&payTimeout=20200331210116&riskRateInfo={商品名称}&signMethod=01&txnAmt=1500&txnSubType=01&txnTime=20200331204616&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[35769f4aa08843456e5ba9742bc733c80335f75f69c3f3917bc2cb80657c06b5]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585658774861918390"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn"/><input type="hidden" name="signature" id="signature" value="tQQRqcRaORNUvbW24F5k6qPmIfTfhTyGcFvIWLeiQ5kcjfszLrI59K2MrG0FW3VfLH3Pg7xSR2PQAalO93CekpW36MHLmBuiteaNvA9OFARJnus2BkTkaVqhA5mEJ8wRN9ZUbUAA3JO41VBEwQh//dAsUbqnNjXP4QxfYtl/9k0nOleq055Q9PS5ZYotNRtfthgn21CYhIiOkwV56vrFl35GXY8iG+ibpmXjayPeBZQ6jsKLIQYbz+eSBnn193euZhyn6+tQJAn2naL3Hp1krBUemcCkVQeds8VMm9pA0R/OEE/VHypFveNRZlPk1V3iPKc6xt2od7YxNlHL5ygBUQ=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585658774861918390"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200331204616"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200331210116"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1500"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585658774861918390]
+[txnSubType] = [01]
+[signature] = [Boaf9L7TE4hZGvYxWMIq4FPFfhUwLth5SMFIWfOL8yJ5bZQ6Fp3gN/gyAqCzmd+uvej2DACC1ZPzd6+5EiMO+sYb7APNkgxdPgdwgOXSTS3iuNNnBrOEnF1DeVAMURjCwQNy3jfw/0v9ONPqhDMzOKURis3SOtk5Exuibxd4HXBbp8JNUtPgFUJ48i8SXOEpmVp7yrodzUoRFm24bXfaj32zwaLWOrjSr+Tg48yLPbnQP+5AN/OQzcGLfIPbuuAA3+BR1mhsjzJVervRL3uu0I4HyuAhmI02iIBB580nWYpIw8R6nLP2YwagvLUXp7x6vu0ch68MnQ6SXEWMPA4+/g==]
+[traceNo] = [125025]
+[accNo] = [6216***********0018]
+[settleAmt] = [1500]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [642003312046161250258]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331204616]
+[txnTime] = [20200331204616]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1500]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[Boaf9L7TE4hZGvYxWMIq4FPFfhUwLth5SMFIWfOL8yJ5bZQ6Fp3gN/gyAqCzmd+uvej2DACC1ZPzd6+5EiMO+sYb7APNkgxdPgdwgOXSTS3iuNNnBrOEnF1DeVAMURjCwQNy3jfw/0v9ONPqhDMzOKURis3SOtk5Exuibxd4HXBbp8JNUtPgFUJ48i8SXOEpmVp7yrodzUoRFm24bXfaj32zwaLWOrjSr+Tg48yLPbnQP+5AN/OQzcGLfIPbuuAA3+BR1mhsjzJVervRL3uu0I4HyuAhmI02iIBB580nWYpIw8R6nLP2YwagvLUXp7x6vu0ch68MnQ6SXEWMPA4+/g==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585658774861918390&queryId=642003312046161250258&respCode=00&respMsg=成功[0000000]&settleAmt=1500&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=125025&traceTime=0331204616&txnAmt=1500&txnSubType=01&txnTime=20200331204616&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585658774861918390]
+[txnSubType] = [01]
+[signature] = [Boaf9L7TE4hZGvYxWMIq4FPFfhUwLth5SMFIWfOL8yJ5bZQ6Fp3gN/gyAqCzmd+uvej2DACC1ZPzd6+5EiMO+sYb7APNkgxdPgdwgOXSTS3iuNNnBrOEnF1DeVAMURjCwQNy3jfw/0v9ONPqhDMzOKURis3SOtk5Exuibxd4HXBbp8JNUtPgFUJ48i8SXOEpmVp7yrodzUoRFm24bXfaj32zwaLWOrjSr+Tg48yLPbnQP+5AN/OQzcGLfIPbuuAA3+BR1mhsjzJVervRL3uu0I4HyuAhmI02iIBB580nWYpIw8R6nLP2YwagvLUXp7x6vu0ch68MnQ6SXEWMPA4+/g==]
+[traceNo] = [125025]
+[accNo] = [6216***********0018]
+[settleAmt] = [1500]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [642003312046161250258]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331204616]
+[txnTime] = [20200331204616]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1500]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[Boaf9L7TE4hZGvYxWMIq4FPFfhUwLth5SMFIWfOL8yJ5bZQ6Fp3gN/gyAqCzmd+uvej2DACC1ZPzd6+5EiMO+sYb7APNkgxdPgdwgOXSTS3iuNNnBrOEnF1DeVAMURjCwQNy3jfw/0v9ONPqhDMzOKURis3SOtk5Exuibxd4HXBbp8JNUtPgFUJ48i8SXOEpmVp7yrodzUoRFm24bXfaj32zwaLWOrjSr+Tg48yLPbnQP+5AN/OQzcGLfIPbuuAA3+BR1mhsjzJVervRL3uu0I4HyuAhmI02iIBB580nWYpIw8R6nLP2YwagvLUXp7x6vu0ch68MnQ6SXEWMPA4+/g==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585658774861918390&queryId=642003312046161250258&respCode=00&respMsg=成功[0000000]&settleAmt=1500&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=125025&traceTime=0331204616&txnAmt=1500&txnSubType=01&txnTime=20200331204616&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585658968258425531
+backUrl-->http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585658968258425531
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200331204933
+merId-->777290058177050
+payTimeout-->20200331210433
+currencyCode-->156
+signMethod-->01
+txnAmt-->1000
+riskRateInfo-->{商品名称}
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585658968258425531&merId=777290058177050&orderId=1585658968258425531&payTimeout=20200331210433&riskRateInfo={商品名称}&signMethod=01&txnAmt=1000&txnSubType=01&txnTime=20200331204933&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[0f470322455256023c156328de64139d5fd96c8bad28eff8996b444e38943644]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585658968258425531"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn"/><input type="hidden" name="signature" id="signature" value="VroYUv/Ot+AaHxNv5l+GSGjDaYEOOuuzgiIb3E9E6KX9BTdAgbTWZN0+LJBnGX5fH2V+SErxnb8xkXfy6FyGU8lUSgH9TcL2W3KEJCx0u7w8MBtU5X5Jl2bN6Vh1FSa+pBkS9f9fU8AVV33xaIy2RHa1I/6ckiXcZB2vzANnqWdUfqFY0Q5TmjN+7dtPqlxeSKmzBbM9OBo64KlkUNd/ppGA22hlqYMNNM1OicrMN9hN0k42+AjVg7KqPkAW2Zy9Fx/Ex6o4K5Es/bd7QULrre/Now5oe4xUAyhd6K8WfO693j5gGLSZStyeqFW7xllKkMDr6P/hpkxflEx5ey7f5Q=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585658968258425531"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200331204933"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200331210433"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1000"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585658774861918390]
+[txnSubType] = [01]
+[signature] = [Boaf9L7TE4hZGvYxWMIq4FPFfhUwLth5SMFIWfOL8yJ5bZQ6Fp3gN/gyAqCzmd+uvej2DACC1ZPzd6+5EiMO+sYb7APNkgxdPgdwgOXSTS3iuNNnBrOEnF1DeVAMURjCwQNy3jfw/0v9ONPqhDMzOKURis3SOtk5Exuibxd4HXBbp8JNUtPgFUJ48i8SXOEpmVp7yrodzUoRFm24bXfaj32zwaLWOrjSr+Tg48yLPbnQP+5AN/OQzcGLfIPbuuAA3+BR1mhsjzJVervRL3uu0I4HyuAhmI02iIBB580nWYpIw8R6nLP2YwagvLUXp7x6vu0ch68MnQ6SXEWMPA4+/g==]
+[traceNo] = [125025]
+[accNo] = [6216***********0018]
+[settleAmt] = [1500]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [642003312046161250258]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331204616]
+[txnTime] = [20200331204616]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1500]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[Boaf9L7TE4hZGvYxWMIq4FPFfhUwLth5SMFIWfOL8yJ5bZQ6Fp3gN/gyAqCzmd+uvej2DACC1ZPzd6+5EiMO+sYb7APNkgxdPgdwgOXSTS3iuNNnBrOEnF1DeVAMURjCwQNy3jfw/0v9ONPqhDMzOKURis3SOtk5Exuibxd4HXBbp8JNUtPgFUJ48i8SXOEpmVp7yrodzUoRFm24bXfaj32zwaLWOrjSr+Tg48yLPbnQP+5AN/OQzcGLfIPbuuAA3+BR1mhsjzJVervRL3uu0I4HyuAhmI02iIBB580nWYpIw8R6nLP2YwagvLUXp7x6vu0ch68MnQ6SXEWMPA4+/g==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585658774861918390&queryId=642003312046161250258&respCode=00&respMsg=成功[0000000]&settleAmt=1500&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=125025&traceTime=0331204616&txnAmt=1500&txnSubType=01&txnTime=20200331204616&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585659148999506396
+backUrl-->http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.vipgz1.idcfengye.com/orderDetail/1585659148999506396
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200331205230
+merId-->777290058177050
+payTimeout-->20200331210730
+currencyCode-->156
+signMethod-->01
+txnAmt-->1000
+riskRateInfo-->{商品名称}
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.vipgz1.idcfengye.com/orderDetail/1585659148999506396&merId=777290058177050&orderId=1585659148999506396&payTimeout=20200331210730&riskRateInfo={商品名称}&signMethod=01&txnAmt=1000&txnSubType=01&txnTime=20200331205230&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[ae7c65c77871e99afdb1e813e5ba814f3ef5f0aae523a1f1494eff3057f38e3b]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585659148999506396"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn"/><input type="hidden" name="signature" id="signature" value="N4EleuFXAkrxcQmif6R24+ZaWPXMkkhzvrcB5MI71Ymio8+aasSbkFzbqwH3N0L6YSusCBXWoJyXWeIjVzx4uC7uGI/BqY9MwHxSN6PB2cFAszzhC0xiPqg1a9GZfFTPIr+oh7goISiMl4tKU3Br7s+NrK4qpPZC+15R15u/MrrMXZ+ra18va7YBSUGajJyOVMmxP7Vcca9geJ7NPkqN+mGm27kbh1d44dFRXa81myII46bcPWqmGQK+c0i0LjyO8lB9RVdL5x7zq6lMWmJm5jEczCvftGvZGGWNp69J4nX6MP4cjc9bMmE2pLSAvFdXF9ngzYCODO1aNgcBbTYETg=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.vipgz1.idcfengye.com/orderDetail/1585659148999506396"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200331205230"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200331210730"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1000"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585659148999506396]
+[txnSubType] = [01]
+[signature] = [sElfuriNfS8y4naBSo5PURDFHV8sBUE3CaaiXBtjHtoUC+Vokv8IY4F3iXhZaohCDKjJcURVWXZi3e6q4iGjvFLjoohhufBwMygyBj2oqLSpekAeQWnAuB2yAr/JScYVTa0T3w3+GsHLYx/OowJA00hyqbaO8ALeqHhuhS0IRTRmu+OBSghZi3vtvtF5m9G0Rr6nQmO0p3PxGyTbGSJQTycRZZYIG8pNAm77OPuvbNdU3OIQY9El5EKiHjzlFUPEyQ55OeElyxFqa0MpzRQtD+8y9c1xbVKNMjGl1NvkzC/NBkzHdpcTEV8oSOsD6ZPEzCrDY2fKH2RZqlMBOD7oIg==]
+[traceNo] = [978777]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [952003312052309787778]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331205230]
+[txnTime] = [20200331205230]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[sElfuriNfS8y4naBSo5PURDFHV8sBUE3CaaiXBtjHtoUC+Vokv8IY4F3iXhZaohCDKjJcURVWXZi3e6q4iGjvFLjoohhufBwMygyBj2oqLSpekAeQWnAuB2yAr/JScYVTa0T3w3+GsHLYx/OowJA00hyqbaO8ALeqHhuhS0IRTRmu+OBSghZi3vtvtF5m9G0Rr6nQmO0p3PxGyTbGSJQTycRZZYIG8pNAm77OPuvbNdU3OIQY9El5EKiHjzlFUPEyQ55OeElyxFqa0MpzRQtD+8y9c1xbVKNMjGl1NvkzC/NBkzHdpcTEV8oSOsD6ZPEzCrDY2fKH2RZqlMBOD7oIg==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585659148999506396&queryId=952003312052309787778&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=978777&traceTime=0331205230&txnAmt=1000&txnSubType=01&txnTime=20200331205230&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585658968258425531]
+[txnSubType] = [01]
+[signature] = [aJp4RiwX08qEc5SCdomXIiVDyMiA+Rd/EpRGy4eFPBqgKbcDcxD8vKqzHkP6/+pS+wu6HWUwTQCLP12SCke3RzcM4+lM7a8h+nYat0cvjJB9vYVSiXcUnl1GkVvuknevlFv9+03mhfoxUpDuSG43gKV2Deddb5KW78LCzVFGmbY18V1yPSIpkA3CRHcIgiTvfsJJeLyNyrhCHcJ5NBsWv6h9UH0GjFUuREVP2u1vKNrr/aXjUKESFF4SG4NPWOHtUAahP4rv3EzFnw4CvPFvEQbKf/Qk7fR6Ag+SNI+TwccRPRBDSSITsNdLp5zyMta325Nd5txVNyUZbvHHRTyedQ==]
+[traceNo] = [978652]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [502003312049339786528]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331204933]
+[txnTime] = [20200331204933]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[aJp4RiwX08qEc5SCdomXIiVDyMiA+Rd/EpRGy4eFPBqgKbcDcxD8vKqzHkP6/+pS+wu6HWUwTQCLP12SCke3RzcM4+lM7a8h+nYat0cvjJB9vYVSiXcUnl1GkVvuknevlFv9+03mhfoxUpDuSG43gKV2Deddb5KW78LCzVFGmbY18V1yPSIpkA3CRHcIgiTvfsJJeLyNyrhCHcJ5NBsWv6h9UH0GjFUuREVP2u1vKNrr/aXjUKESFF4SG4NPWOHtUAahP4rv3EzFnw4CvPFvEQbKf/Qk7fR6Ag+SNI+TwccRPRBDSSITsNdLp5zyMta325Nd5txVNyUZbvHHRTyedQ==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585658968258425531&queryId=502003312049339786528&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=978652&traceTime=0331204933&txnAmt=1000&txnSubType=01&txnTime=20200331204933&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585659148999506396]
+[txnSubType] = [01]
+[signature] = [sElfuriNfS8y4naBSo5PURDFHV8sBUE3CaaiXBtjHtoUC+Vokv8IY4F3iXhZaohCDKjJcURVWXZi3e6q4iGjvFLjoohhufBwMygyBj2oqLSpekAeQWnAuB2yAr/JScYVTa0T3w3+GsHLYx/OowJA00hyqbaO8ALeqHhuhS0IRTRmu+OBSghZi3vtvtF5m9G0Rr6nQmO0p3PxGyTbGSJQTycRZZYIG8pNAm77OPuvbNdU3OIQY9El5EKiHjzlFUPEyQ55OeElyxFqa0MpzRQtD+8y9c1xbVKNMjGl1NvkzC/NBkzHdpcTEV8oSOsD6ZPEzCrDY2fKH2RZqlMBOD7oIg==]
+[traceNo] = [978777]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [952003312052309787778]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331205230]
+[txnTime] = [20200331205230]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[sElfuriNfS8y4naBSo5PURDFHV8sBUE3CaaiXBtjHtoUC+Vokv8IY4F3iXhZaohCDKjJcURVWXZi3e6q4iGjvFLjoohhufBwMygyBj2oqLSpekAeQWnAuB2yAr/JScYVTa0T3w3+GsHLYx/OowJA00hyqbaO8ALeqHhuhS0IRTRmu+OBSghZi3vtvtF5m9G0Rr6nQmO0p3PxGyTbGSJQTycRZZYIG8pNAm77OPuvbNdU3OIQY9El5EKiHjzlFUPEyQ55OeElyxFqa0MpzRQtD+8y9c1xbVKNMjGl1NvkzC/NBkzHdpcTEV8oSOsD6ZPEzCrDY2fKH2RZqlMBOD7oIg==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585659148999506396&queryId=952003312052309787778&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=978777&traceTime=0331205230&txnAmt=1000&txnSubType=01&txnTime=20200331205230&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585658774861918390]
+[txnSubType] = [01]
+[signature] = [Boaf9L7TE4hZGvYxWMIq4FPFfhUwLth5SMFIWfOL8yJ5bZQ6Fp3gN/gyAqCzmd+uvej2DACC1ZPzd6+5EiMO+sYb7APNkgxdPgdwgOXSTS3iuNNnBrOEnF1DeVAMURjCwQNy3jfw/0v9ONPqhDMzOKURis3SOtk5Exuibxd4HXBbp8JNUtPgFUJ48i8SXOEpmVp7yrodzUoRFm24bXfaj32zwaLWOrjSr+Tg48yLPbnQP+5AN/OQzcGLfIPbuuAA3+BR1mhsjzJVervRL3uu0I4HyuAhmI02iIBB580nWYpIw8R6nLP2YwagvLUXp7x6vu0ch68MnQ6SXEWMPA4+/g==]
+[traceNo] = [125025]
+[accNo] = [6216***********0018]
+[settleAmt] = [1500]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [642003312046161250258]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331204616]
+[txnTime] = [20200331204616]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1500]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[Boaf9L7TE4hZGvYxWMIq4FPFfhUwLth5SMFIWfOL8yJ5bZQ6Fp3gN/gyAqCzmd+uvej2DACC1ZPzd6+5EiMO+sYb7APNkgxdPgdwgOXSTS3iuNNnBrOEnF1DeVAMURjCwQNy3jfw/0v9ONPqhDMzOKURis3SOtk5Exuibxd4HXBbp8JNUtPgFUJ48i8SXOEpmVp7yrodzUoRFm24bXfaj32zwaLWOrjSr+Tg48yLPbnQP+5AN/OQzcGLfIPbuuAA3+BR1mhsjzJVervRL3uu0I4HyuAhmI02iIBB580nWYpIw8R6nLP2YwagvLUXp7x6vu0ch68MnQ6SXEWMPA4+/g==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585658774861918390&queryId=642003312046161250258&respCode=00&respMsg=成功[0000000]&settleAmt=1500&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=125025&traceTime=0331204616&txnAmt=1500&txnSubType=01&txnTime=20200331204616&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585658968258425531]
+[txnSubType] = [01]
+[signature] = [aJp4RiwX08qEc5SCdomXIiVDyMiA+Rd/EpRGy4eFPBqgKbcDcxD8vKqzHkP6/+pS+wu6HWUwTQCLP12SCke3RzcM4+lM7a8h+nYat0cvjJB9vYVSiXcUnl1GkVvuknevlFv9+03mhfoxUpDuSG43gKV2Deddb5KW78LCzVFGmbY18V1yPSIpkA3CRHcIgiTvfsJJeLyNyrhCHcJ5NBsWv6h9UH0GjFUuREVP2u1vKNrr/aXjUKESFF4SG4NPWOHtUAahP4rv3EzFnw4CvPFvEQbKf/Qk7fR6Ag+SNI+TwccRPRBDSSITsNdLp5zyMta325Nd5txVNyUZbvHHRTyedQ==]
+[traceNo] = [978652]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [502003312049339786528]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331204933]
+[txnTime] = [20200331204933]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[aJp4RiwX08qEc5SCdomXIiVDyMiA+Rd/EpRGy4eFPBqgKbcDcxD8vKqzHkP6/+pS+wu6HWUwTQCLP12SCke3RzcM4+lM7a8h+nYat0cvjJB9vYVSiXcUnl1GkVvuknevlFv9+03mhfoxUpDuSG43gKV2Deddb5KW78LCzVFGmbY18V1yPSIpkA3CRHcIgiTvfsJJeLyNyrhCHcJ5NBsWv6h9UH0GjFUuREVP2u1vKNrr/aXjUKESFF4SG4NPWOHtUAahP4rv3EzFnw4CvPFvEQbKf/Qk7fR6Ag+SNI+TwccRPRBDSSITsNdLp5zyMta325Nd5txVNyUZbvHHRTyedQ==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585658968258425531&queryId=502003312049339786528&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=978652&traceTime=0331204933&txnAmt=1000&txnSubType=01&txnTime=20200331204933&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585659482986632020
+backUrl-->http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585659482986632020
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200331205810
+merId-->777290058177050
+payTimeout-->20200331211310
+currencyCode-->156
+signMethod-->01
+txnAmt-->400
+riskRateInfo-->{商品名称}
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585659482986632020&merId=777290058177050&orderId=1585659482986632020&payTimeout=20200331211310&riskRateInfo={商品名称}&signMethod=01&txnAmt=400&txnSubType=01&txnTime=20200331205810&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[b942b4e7e77cc85b90bd45b183648a4e7d1b2c87f26c4f0baa47bcf826581049]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585659482986632020"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn"/><input type="hidden" name="signature" id="signature" value="iX1e71mDii/IptIhDExOwmn2xwZtFGedDmmRePIuvw/chw17BG1dQ/rZTLwAuE0TdqDhV+WNRgmksthm8MRr8G69oL+KsTHXoOjPIEviNq5UgdnFfiScYasyJsNSJxMaGLjyxVQetWzqP7hROhuZEMC0hfP8TZvWGBogN+IjvwyXDCFqNeZ6RvinyIePO2PbvUaXzshigmtxNYYZz4iQdZ+pGGPw4uk5GtGtA/Zd8Ahl0kyvzMeQkr0FylznohMmF2UEd19TmBFW0BkMVCUZmne2dgrxR0BhuP9E3zOB5CTU+O7xw9ZDaFECtvCiboW6JspN2DCqQIGE4ljdnZA+jw=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585659482986632020"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200331205810"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200331211310"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="400"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585659482986632020]
+[txnSubType] = [01]
+[signature] = [wduJp5hS1cNBqo5ZzU6qbByAoIjnNGIFlPHct+VoFzrqWVfXuxPIdmHs/s1fjRgKuZUB2YcIX0j0EsuxctJqMySRgMB6Of3n1a+B6XkQ2nv5/aeie7hE34UmKeIrPUJvGUEz0scPJfbedoYBh1AXa+EIrYQ/3KsmXvUmJKXLmZQZo6N4w+QxwH3sxf3TqhMXACbGtCLUqpvvo5YQQYdAM46K3IN+2M11E6F49eXKr17QOMv2/8Uoo/iSWpzRN9DX7nOuulgBxa+CfXbmtxrXJBi8B0BY3QzPU5+ndaGU4ibCJfY0IBKHWddevMElO2wPj4SiJ3rwnbkAThVqaKES+A==]
+[traceNo] = [921901]
+[accNo] = [6216***********0018]
+[settleAmt] = [400]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [032003312058109219018]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331205810]
+[txnTime] = [20200331205810]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [400]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[wduJp5hS1cNBqo5ZzU6qbByAoIjnNGIFlPHct+VoFzrqWVfXuxPIdmHs/s1fjRgKuZUB2YcIX0j0EsuxctJqMySRgMB6Of3n1a+B6XkQ2nv5/aeie7hE34UmKeIrPUJvGUEz0scPJfbedoYBh1AXa+EIrYQ/3KsmXvUmJKXLmZQZo6N4w+QxwH3sxf3TqhMXACbGtCLUqpvvo5YQQYdAM46K3IN+2M11E6F49eXKr17QOMv2/8Uoo/iSWpzRN9DX7nOuulgBxa+CfXbmtxrXJBi8B0BY3QzPU5+ndaGU4ibCJfY0IBKHWddevMElO2wPj4SiJ3rwnbkAThVqaKES+A==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585659482986632020&queryId=032003312058109219018&respCode=00&respMsg=成功[0000000]&settleAmt=400&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=921901&traceTime=0331205810&txnAmt=400&txnSubType=01&txnTime=20200331205810&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585658774861918390]
+[txnSubType] = [01]
+[signature] = [Boaf9L7TE4hZGvYxWMIq4FPFfhUwLth5SMFIWfOL8yJ5bZQ6Fp3gN/gyAqCzmd+uvej2DACC1ZPzd6+5EiMO+sYb7APNkgxdPgdwgOXSTS3iuNNnBrOEnF1DeVAMURjCwQNy3jfw/0v9ONPqhDMzOKURis3SOtk5Exuibxd4HXBbp8JNUtPgFUJ48i8SXOEpmVp7yrodzUoRFm24bXfaj32zwaLWOrjSr+Tg48yLPbnQP+5AN/OQzcGLfIPbuuAA3+BR1mhsjzJVervRL3uu0I4HyuAhmI02iIBB580nWYpIw8R6nLP2YwagvLUXp7x6vu0ch68MnQ6SXEWMPA4+/g==]
+[traceNo] = [125025]
+[accNo] = [6216***********0018]
+[settleAmt] = [1500]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [642003312046161250258]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331204616]
+[txnTime] = [20200331204616]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1500]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[Boaf9L7TE4hZGvYxWMIq4FPFfhUwLth5SMFIWfOL8yJ5bZQ6Fp3gN/gyAqCzmd+uvej2DACC1ZPzd6+5EiMO+sYb7APNkgxdPgdwgOXSTS3iuNNnBrOEnF1DeVAMURjCwQNy3jfw/0v9ONPqhDMzOKURis3SOtk5Exuibxd4HXBbp8JNUtPgFUJ48i8SXOEpmVp7yrodzUoRFm24bXfaj32zwaLWOrjSr+Tg48yLPbnQP+5AN/OQzcGLfIPbuuAA3+BR1mhsjzJVervRL3uu0I4HyuAhmI02iIBB580nWYpIw8R6nLP2YwagvLUXp7x6vu0ch68MnQ6SXEWMPA4+/g==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585658774861918390&queryId=642003312046161250258&respCode=00&respMsg=成功[0000000]&settleAmt=1500&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=125025&traceTime=0331204616&txnAmt=1500&txnSubType=01&txnTime=20200331204616&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585659482986632020]
+[txnSubType] = [01]
+[signature] = [wduJp5hS1cNBqo5ZzU6qbByAoIjnNGIFlPHct+VoFzrqWVfXuxPIdmHs/s1fjRgKuZUB2YcIX0j0EsuxctJqMySRgMB6Of3n1a+B6XkQ2nv5/aeie7hE34UmKeIrPUJvGUEz0scPJfbedoYBh1AXa+EIrYQ/3KsmXvUmJKXLmZQZo6N4w+QxwH3sxf3TqhMXACbGtCLUqpvvo5YQQYdAM46K3IN+2M11E6F49eXKr17QOMv2/8Uoo/iSWpzRN9DX7nOuulgBxa+CfXbmtxrXJBi8B0BY3QzPU5+ndaGU4ibCJfY0IBKHWddevMElO2wPj4SiJ3rwnbkAThVqaKES+A==]
+[traceNo] = [921901]
+[accNo] = [6216***********0018]
+[settleAmt] = [400]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [032003312058109219018]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331205810]
+[txnTime] = [20200331205810]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [400]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[wduJp5hS1cNBqo5ZzU6qbByAoIjnNGIFlPHct+VoFzrqWVfXuxPIdmHs/s1fjRgKuZUB2YcIX0j0EsuxctJqMySRgMB6Of3n1a+B6XkQ2nv5/aeie7hE34UmKeIrPUJvGUEz0scPJfbedoYBh1AXa+EIrYQ/3KsmXvUmJKXLmZQZo6N4w+QxwH3sxf3TqhMXACbGtCLUqpvvo5YQQYdAM46K3IN+2M11E6F49eXKr17QOMv2/8Uoo/iSWpzRN9DX7nOuulgBxa+CfXbmtxrXJBi8B0BY3QzPU5+ndaGU4ibCJfY0IBKHWddevMElO2wPj4SiJ3rwnbkAThVqaKES+A==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585659482986632020&queryId=032003312058109219018&respCode=00&respMsg=成功[0000000]&settleAmt=400&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=921901&traceTime=0331205810&txnAmt=400&txnSubType=01&txnTime=20200331205810&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585659148999506396]
+[txnSubType] = [01]
+[signature] = [sElfuriNfS8y4naBSo5PURDFHV8sBUE3CaaiXBtjHtoUC+Vokv8IY4F3iXhZaohCDKjJcURVWXZi3e6q4iGjvFLjoohhufBwMygyBj2oqLSpekAeQWnAuB2yAr/JScYVTa0T3w3+GsHLYx/OowJA00hyqbaO8ALeqHhuhS0IRTRmu+OBSghZi3vtvtF5m9G0Rr6nQmO0p3PxGyTbGSJQTycRZZYIG8pNAm77OPuvbNdU3OIQY9El5EKiHjzlFUPEyQ55OeElyxFqa0MpzRQtD+8y9c1xbVKNMjGl1NvkzC/NBkzHdpcTEV8oSOsD6ZPEzCrDY2fKH2RZqlMBOD7oIg==]
+[traceNo] = [978777]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [952003312052309787778]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331205230]
+[txnTime] = [20200331205230]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[sElfuriNfS8y4naBSo5PURDFHV8sBUE3CaaiXBtjHtoUC+Vokv8IY4F3iXhZaohCDKjJcURVWXZi3e6q4iGjvFLjoohhufBwMygyBj2oqLSpekAeQWnAuB2yAr/JScYVTa0T3w3+GsHLYx/OowJA00hyqbaO8ALeqHhuhS0IRTRmu+OBSghZi3vtvtF5m9G0Rr6nQmO0p3PxGyTbGSJQTycRZZYIG8pNAm77OPuvbNdU3OIQY9El5EKiHjzlFUPEyQ55OeElyxFqa0MpzRQtD+8y9c1xbVKNMjGl1NvkzC/NBkzHdpcTEV8oSOsD6ZPEzCrDY2fKH2RZqlMBOD7oIg==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585659148999506396&queryId=952003312052309787778&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=978777&traceTime=0331205230&txnAmt=1000&txnSubType=01&txnTime=20200331205230&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585659482986632020]
+[txnSubType] = [01]
+[signature] = [wduJp5hS1cNBqo5ZzU6qbByAoIjnNGIFlPHct+VoFzrqWVfXuxPIdmHs/s1fjRgKuZUB2YcIX0j0EsuxctJqMySRgMB6Of3n1a+B6XkQ2nv5/aeie7hE34UmKeIrPUJvGUEz0scPJfbedoYBh1AXa+EIrYQ/3KsmXvUmJKXLmZQZo6N4w+QxwH3sxf3TqhMXACbGtCLUqpvvo5YQQYdAM46K3IN+2M11E6F49eXKr17QOMv2/8Uoo/iSWpzRN9DX7nOuulgBxa+CfXbmtxrXJBi8B0BY3QzPU5+ndaGU4ibCJfY0IBKHWddevMElO2wPj4SiJ3rwnbkAThVqaKES+A==]
+[traceNo] = [921901]
+[accNo] = [6216***********0018]
+[settleAmt] = [400]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [032003312058109219018]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331205810]
+[txnTime] = [20200331205810]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [400]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[wduJp5hS1cNBqo5ZzU6qbByAoIjnNGIFlPHct+VoFzrqWVfXuxPIdmHs/s1fjRgKuZUB2YcIX0j0EsuxctJqMySRgMB6Of3n1a+B6XkQ2nv5/aeie7hE34UmKeIrPUJvGUEz0scPJfbedoYBh1AXa+EIrYQ/3KsmXvUmJKXLmZQZo6N4w+QxwH3sxf3TqhMXACbGtCLUqpvvo5YQQYdAM46K3IN+2M11E6F49eXKr17QOMv2/8Uoo/iSWpzRN9DX7nOuulgBxa+CfXbmtxrXJBi8B0BY3QzPU5+ndaGU4ibCJfY0IBKHWddevMElO2wPj4SiJ3rwnbkAThVqaKES+A==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585659482986632020&queryId=032003312058109219018&respCode=00&respMsg=成功[0000000]&settleAmt=400&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=921901&traceTime=0331205810&txnAmt=400&txnSubType=01&txnTime=20200331205810&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585658968258425531]
+[txnSubType] = [01]
+[signature] = [aJp4RiwX08qEc5SCdomXIiVDyMiA+Rd/EpRGy4eFPBqgKbcDcxD8vKqzHkP6/+pS+wu6HWUwTQCLP12SCke3RzcM4+lM7a8h+nYat0cvjJB9vYVSiXcUnl1GkVvuknevlFv9+03mhfoxUpDuSG43gKV2Deddb5KW78LCzVFGmbY18V1yPSIpkA3CRHcIgiTvfsJJeLyNyrhCHcJ5NBsWv6h9UH0GjFUuREVP2u1vKNrr/aXjUKESFF4SG4NPWOHtUAahP4rv3EzFnw4CvPFvEQbKf/Qk7fR6Ag+SNI+TwccRPRBDSSITsNdLp5zyMta325Nd5txVNyUZbvHHRTyedQ==]
+[traceNo] = [978652]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [502003312049339786528]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331204933]
+[txnTime] = [20200331204933]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[aJp4RiwX08qEc5SCdomXIiVDyMiA+Rd/EpRGy4eFPBqgKbcDcxD8vKqzHkP6/+pS+wu6HWUwTQCLP12SCke3RzcM4+lM7a8h+nYat0cvjJB9vYVSiXcUnl1GkVvuknevlFv9+03mhfoxUpDuSG43gKV2Deddb5KW78LCzVFGmbY18V1yPSIpkA3CRHcIgiTvfsJJeLyNyrhCHcJ5NBsWv6h9UH0GjFUuREVP2u1vKNrr/aXjUKESFF4SG4NPWOHtUAahP4rv3EzFnw4CvPFvEQbKf/Qk7fR6Ag+SNI+TwccRPRBDSSITsNdLp5zyMta325Nd5txVNyUZbvHHRTyedQ==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585658968258425531&queryId=502003312049339786528&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=978652&traceTime=0331204933&txnAmt=1000&txnSubType=01&txnTime=20200331204933&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585659482986632020]
+[txnSubType] = [01]
+[signature] = [wduJp5hS1cNBqo5ZzU6qbByAoIjnNGIFlPHct+VoFzrqWVfXuxPIdmHs/s1fjRgKuZUB2YcIX0j0EsuxctJqMySRgMB6Of3n1a+B6XkQ2nv5/aeie7hE34UmKeIrPUJvGUEz0scPJfbedoYBh1AXa+EIrYQ/3KsmXvUmJKXLmZQZo6N4w+QxwH3sxf3TqhMXACbGtCLUqpvvo5YQQYdAM46K3IN+2M11E6F49eXKr17QOMv2/8Uoo/iSWpzRN9DX7nOuulgBxa+CfXbmtxrXJBi8B0BY3QzPU5+ndaGU4ibCJfY0IBKHWddevMElO2wPj4SiJ3rwnbkAThVqaKES+A==]
+[traceNo] = [921901]
+[accNo] = [6216***********0018]
+[settleAmt] = [400]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [032003312058109219018]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331205810]
+[txnTime] = [20200331205810]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [400]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[wduJp5hS1cNBqo5ZzU6qbByAoIjnNGIFlPHct+VoFzrqWVfXuxPIdmHs/s1fjRgKuZUB2YcIX0j0EsuxctJqMySRgMB6Of3n1a+B6XkQ2nv5/aeie7hE34UmKeIrPUJvGUEz0scPJfbedoYBh1AXa+EIrYQ/3KsmXvUmJKXLmZQZo6N4w+QxwH3sxf3TqhMXACbGtCLUqpvvo5YQQYdAM46K3IN+2M11E6F49eXKr17QOMv2/8Uoo/iSWpzRN9DX7nOuulgBxa+CfXbmtxrXJBi8B0BY3QzPU5+ndaGU4ibCJfY0IBKHWddevMElO2wPj4SiJ3rwnbkAThVqaKES+A==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585659482986632020&queryId=032003312058109219018&respCode=00&respMsg=成功[0000000]&settleAmt=400&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=921901&traceTime=0331205810&txnAmt=400&txnSubType=01&txnTime=20200331205810&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585659482986632020]
+[txnSubType] = [01]
+[signature] = [wduJp5hS1cNBqo5ZzU6qbByAoIjnNGIFlPHct+VoFzrqWVfXuxPIdmHs/s1fjRgKuZUB2YcIX0j0EsuxctJqMySRgMB6Of3n1a+B6XkQ2nv5/aeie7hE34UmKeIrPUJvGUEz0scPJfbedoYBh1AXa+EIrYQ/3KsmXvUmJKXLmZQZo6N4w+QxwH3sxf3TqhMXACbGtCLUqpvvo5YQQYdAM46K3IN+2M11E6F49eXKr17QOMv2/8Uoo/iSWpzRN9DX7nOuulgBxa+CfXbmtxrXJBi8B0BY3QzPU5+ndaGU4ibCJfY0IBKHWddevMElO2wPj4SiJ3rwnbkAThVqaKES+A==]
+[traceNo] = [921901]
+[accNo] = [6216***********0018]
+[settleAmt] = [400]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [032003312058109219018]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331205810]
+[txnTime] = [20200331205810]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [400]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[wduJp5hS1cNBqo5ZzU6qbByAoIjnNGIFlPHct+VoFzrqWVfXuxPIdmHs/s1fjRgKuZUB2YcIX0j0EsuxctJqMySRgMB6Of3n1a+B6XkQ2nv5/aeie7hE34UmKeIrPUJvGUEz0scPJfbedoYBh1AXa+EIrYQ/3KsmXvUmJKXLmZQZo6N4w+QxwH3sxf3TqhMXACbGtCLUqpvvo5YQQYdAM46K3IN+2M11E6F49eXKr17QOMv2/8Uoo/iSWpzRN9DX7nOuulgBxa+CfXbmtxrXJBi8B0BY3QzPU5+ndaGU4ibCJfY0IBKHWddevMElO2wPj4SiJ3rwnbkAThVqaKES+A==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585659482986632020&queryId=032003312058109219018&respCode=00&respMsg=成功[0000000]&settleAmt=400&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=921901&traceTime=0331205810&txnAmt=400&txnSubType=01&txnTime=20200331205810&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585660855467748112
+backUrl-->http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585660855467748112
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200331212056
+merId-->777290058177050
+payTimeout-->20200331213556
+currencyCode-->156
+signMethod-->01
+txnAmt-->1000
+riskRateInfo-->{商品名称}
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585660855467748112&merId=777290058177050&orderId=1585660855467748112&payTimeout=20200331213556&riskRateInfo={商品名称}&signMethod=01&txnAmt=1000&txnSubType=01&txnTime=20200331212056&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[a8bfd00e3cf3d515cf080d88ac5260dc53052f6919aba8ac8f26148829eb36e0]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585660855467748112"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn"/><input type="hidden" name="signature" id="signature" value="kXNkioq5R0kEX/+DvrtZSKOF8MuYNwn5etu/NM+EHq1NEIXlkCCCBLen/tr8E+DKkzUA+h0TOJZBLgciI8b12LzOD5zuRBWXqGfyIF9SFDPAlejbvHhAU8ImF9jLPQuqRNjyoJJ8TGfTWPySKn3r2an9G8lMWcpnb9ChYgJvprAEWg2V1Pl3fn3FVLl9F8Sg5CZsR81k1uNWDklFlpes6gUY2KxwHnWnYM4SFZ0L9eJhV+sn7ZUZXDCiKondFLbl1+F+5rRSCLjq6ZjsNPzJe10hH6F3aq1XWpHESyptNJ1lDYXn4tbzxHgxg/seq0VqrhuBIt72E2YYNyMeFhd2Og=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585660855467748112"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200331212056"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200331213556"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1000"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585660855467748112]
+[txnSubType] = [01]
+[signature] = [BFLzHhBwx7ONpd022SMBTK6DCEr6EuhBdT7aoio+YimjP9sFgrZXK3NrWJ9NvaqtvEKJ5ZQPQmVYVyCrNyUN8ItNLVVG1VadDaICkKYzT242JScoZtsEBYhcnfOlNIGlU3bpk3K4r4gf2ow0IdUIP1fNuV3vrqYAzbnZ4iE7B4dLvNQLq4c2yzQVXDEZLHgB5ph9px3HGUruVmt3fKDWsHlqrCop7NxmsCJZioG92a2UTrcjPDQsgLvmhepB8BNyYfBnV933SQCUbf1JEkI9JUOSbfqhOMUeFMySJxA4kaxH1dZtS7xpRX9FOl9jYPyLUpk1KGx6aKTwoShtFbdSnw==]
+[traceNo] = [923901]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [212003312120569239018]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331212056]
+[txnTime] = [20200331212056]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[BFLzHhBwx7ONpd022SMBTK6DCEr6EuhBdT7aoio+YimjP9sFgrZXK3NrWJ9NvaqtvEKJ5ZQPQmVYVyCrNyUN8ItNLVVG1VadDaICkKYzT242JScoZtsEBYhcnfOlNIGlU3bpk3K4r4gf2ow0IdUIP1fNuV3vrqYAzbnZ4iE7B4dLvNQLq4c2yzQVXDEZLHgB5ph9px3HGUruVmt3fKDWsHlqrCop7NxmsCJZioG92a2UTrcjPDQsgLvmhepB8BNyYfBnV933SQCUbf1JEkI9JUOSbfqhOMUeFMySJxA4kaxH1dZtS7xpRX9FOl9jYPyLUpk1KGx6aKTwoShtFbdSnw==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585660855467748112&queryId=212003312120569239018&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=923901&traceTime=0331212056&txnAmt=1000&txnSubType=01&txnTime=20200331212056&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585660855467748112]
+[txnSubType] = [01]
+[signature] = [BFLzHhBwx7ONpd022SMBTK6DCEr6EuhBdT7aoio+YimjP9sFgrZXK3NrWJ9NvaqtvEKJ5ZQPQmVYVyCrNyUN8ItNLVVG1VadDaICkKYzT242JScoZtsEBYhcnfOlNIGlU3bpk3K4r4gf2ow0IdUIP1fNuV3vrqYAzbnZ4iE7B4dLvNQLq4c2yzQVXDEZLHgB5ph9px3HGUruVmt3fKDWsHlqrCop7NxmsCJZioG92a2UTrcjPDQsgLvmhepB8BNyYfBnV933SQCUbf1JEkI9JUOSbfqhOMUeFMySJxA4kaxH1dZtS7xpRX9FOl9jYPyLUpk1KGx6aKTwoShtFbdSnw==]
+[traceNo] = [923901]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [212003312120569239018]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331212056]
+[txnTime] = [20200331212056]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[BFLzHhBwx7ONpd022SMBTK6DCEr6EuhBdT7aoio+YimjP9sFgrZXK3NrWJ9NvaqtvEKJ5ZQPQmVYVyCrNyUN8ItNLVVG1VadDaICkKYzT242JScoZtsEBYhcnfOlNIGlU3bpk3K4r4gf2ow0IdUIP1fNuV3vrqYAzbnZ4iE7B4dLvNQLq4c2yzQVXDEZLHgB5ph9px3HGUruVmt3fKDWsHlqrCop7NxmsCJZioG92a2UTrcjPDQsgLvmhepB8BNyYfBnV933SQCUbf1JEkI9JUOSbfqhOMUeFMySJxA4kaxH1dZtS7xpRX9FOl9jYPyLUpk1KGx6aKTwoShtFbdSnw==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585660855467748112&queryId=212003312120569239018&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=923901&traceTime=0331212056&txnAmt=1000&txnSubType=01&txnTime=20200331212056&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+打印请求报文域 :
+bizType-->000201
+txnSubType-->01
+orderId-->1585661225006149582
+backUrl-->http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn
+txnType-->01
+channelType-->07
+frontUrl-->http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585661225006149582
+encoding-->UTF-8
+version-->5.1.0
+accessType-->0
+txnTime-->20200331212706
+merId-->777290058177050
+payTimeout-->20200331214206
+currencyCode-->156
+signMethod-->01
+txnAmt-->1000
+riskRateInfo-->{商品名称}
+打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn&bizType=000201&certId=68759663125&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585661225006149582&merId=777290058177050&orderId=1585661225006149582&payTimeout=20200331214206&riskRateInfo={商品名称}&signMethod=01&txnAmt=1000&txnSubType=01&txnTime=20200331212706&txnType=01&version=5.1.0]
+打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[2b5e5bce30587b9a0aaf5ca3b388384423281f6ccfb0b81d3a60fd0bb5b2a52a]
+打印请求HTML，此为请求报文，为联调排查问题的依据：<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><form id = "pay_form" action="https://gateway.test.95516.com/gateway/api/frontTransReq.do" method="post"><input type="hidden" name="bizType" id="bizType" value="000201"/><input type="hidden" name="txnSubType" id="txnSubType" value="01"/><input type="hidden" name="orderId" id="orderId" value="1585661225006149582"/><input type="hidden" name="backUrl" id="backUrl" value="http://dongtian.viphk.ngrok.org/ordering-system/frontPay/asyn"/><input type="hidden" name="signature" id="signature" value="werxLTpPMRdfve09SYR7f7oRPa8m0+wo0d/c2smnuQXo9It88tF0BAl+INlJrYufJzm8Byo9nqKNKN61SJgXe6VFVOAMOhaguY/+lbzuCWMWBQAAfoSKpKwVc6GGCKh20u9lvtnun3Lx2/Fgfo/6qE2Rt69KpajxHLI15hCbPcjbsJRPJl70R1/BOSIadT95DMZ2wp/VUIzw+ZRDD0bw+ChRc2FfSg+2HKfZgRFGSyphVsVXG+kLis3HFU6aDqYbmNsz+KezRXEhVfZvvJhrgZAOxskW2u/dIiQtLUMmtUN5sDojhf6HqLAEFT3n8mAZazNtkTsN+zSj4gbIhPYjuQ=="/><input type="hidden" name="txnType" id="txnType" value="01"/><input type="hidden" name="channelType" id="channelType" value="07"/><input type="hidden" name="frontUrl" id="frontUrl" value="http://dongtian.vipgz1.idcfengye.com/#/orderDetail/1585661225006149582"/><input type="hidden" name="certId" id="certId" value="68759663125"/><input type="hidden" name="encoding" id="encoding" value="UTF-8"/><input type="hidden" name="version" id="version" value="5.1.0"/><input type="hidden" name="accessType" id="accessType" value="0"/><input type="hidden" name="txnTime" id="txnTime" value="20200331212706"/><input type="hidden" name="merId" id="merId" value="777290058177050"/><input type="hidden" name="payTimeout" id="payTimeout" value="20200331214206"/><input type="hidden" name="currencyCode" id="currencyCode" value="156"/><input type="hidden" name="signMethod" id="signMethod" value="01"/><input type="hidden" name="txnAmt" id="txnAmt" value="1000"/><input type="hidden" name="riskRateInfo" id="riskRateInfo" value="{商品名称}"/></form></body><script type="text/javascript">document.all.pay_form.submit();</script></html>
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585661225006149582]
+[txnSubType] = [01]
+[signature] = [l07r3F57ypj3onoytRcUlf59MLUa+0Nz9AlsnkvuQui5OGpN7vDzfU8ZWrYU65mL9M6EsBxMl8a+lvw14b3mHBBt3jSO5XcbsfhMWp/Cz6ZlIoBu37fMaurwOphW20b3UYb224NjaxvSDWbycMrSz5Jezi1rHHvUMqhS/XrzxxETr+duI/ZQoBiuHYxg3mnGkyl6YwYf0J5nuN5Z7f86v1KltnD8GSU4pJUEqfvkDhdVnvBBvTTFzGp+HKwzo3oiZallMw0+7b7rP8lkDZIJgW1iYyWtUGizCL1uit/SCacTl05hrYCe7ry3jawVdOINnjnJY1pyedBGxRMLuXnzCA==]
+[traceNo] = [772024]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [392003312127067720248]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331212706]
+[txnTime] = [20200331212706]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[l07r3F57ypj3onoytRcUlf59MLUa+0Nz9AlsnkvuQui5OGpN7vDzfU8ZWrYU65mL9M6EsBxMl8a+lvw14b3mHBBt3jSO5XcbsfhMWp/Cz6ZlIoBu37fMaurwOphW20b3UYb224NjaxvSDWbycMrSz5Jezi1rHHvUMqhS/XrzxxETr+duI/ZQoBiuHYxg3mnGkyl6YwYf0J5nuN5Z7f86v1KltnD8GSU4pJUEqfvkDhdVnvBBvTTFzGp+HKwzo3oiZallMw0+7b7rP8lkDZIJgW1iYyWtUGizCL1uit/SCacTl05hrYCe7ry3jawVdOINnjnJY1pyedBGxRMLuXnzCA==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585661225006149582&queryId=392003312127067720248&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=772024&traceTime=0331212706&txnAmt=1000&txnSubType=01&txnTime=20200331212706&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585660855467748112]
+[txnSubType] = [01]
+[signature] = [BFLzHhBwx7ONpd022SMBTK6DCEr6EuhBdT7aoio+YimjP9sFgrZXK3NrWJ9NvaqtvEKJ5ZQPQmVYVyCrNyUN8ItNLVVG1VadDaICkKYzT242JScoZtsEBYhcnfOlNIGlU3bpk3K4r4gf2ow0IdUIP1fNuV3vrqYAzbnZ4iE7B4dLvNQLq4c2yzQVXDEZLHgB5ph9px3HGUruVmt3fKDWsHlqrCop7NxmsCJZioG92a2UTrcjPDQsgLvmhepB8BNyYfBnV933SQCUbf1JEkI9JUOSbfqhOMUeFMySJxA4kaxH1dZtS7xpRX9FOl9jYPyLUpk1KGx6aKTwoShtFbdSnw==]
+[traceNo] = [923901]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [212003312120569239018]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331212056]
+[txnTime] = [20200331212056]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[BFLzHhBwx7ONpd022SMBTK6DCEr6EuhBdT7aoio+YimjP9sFgrZXK3NrWJ9NvaqtvEKJ5ZQPQmVYVyCrNyUN8ItNLVVG1VadDaICkKYzT242JScoZtsEBYhcnfOlNIGlU3bpk3K4r4gf2ow0IdUIP1fNuV3vrqYAzbnZ4iE7B4dLvNQLq4c2yzQVXDEZLHgB5ph9px3HGUruVmt3fKDWsHlqrCop7NxmsCJZioG92a2UTrcjPDQsgLvmhepB8BNyYfBnV933SQCUbf1JEkI9JUOSbfqhOMUeFMySJxA4kaxH1dZtS7xpRX9FOl9jYPyLUpk1KGx6aKTwoShtFbdSnw==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585660855467748112&queryId=212003312120569239018&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=923901&traceTime=0331212056&txnAmt=1000&txnSubType=01&txnTime=20200331212056&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585661225006149582]
+[txnSubType] = [01]
+[signature] = [l07r3F57ypj3onoytRcUlf59MLUa+0Nz9AlsnkvuQui5OGpN7vDzfU8ZWrYU65mL9M6EsBxMl8a+lvw14b3mHBBt3jSO5XcbsfhMWp/Cz6ZlIoBu37fMaurwOphW20b3UYb224NjaxvSDWbycMrSz5Jezi1rHHvUMqhS/XrzxxETr+duI/ZQoBiuHYxg3mnGkyl6YwYf0J5nuN5Z7f86v1KltnD8GSU4pJUEqfvkDhdVnvBBvTTFzGp+HKwzo3oiZallMw0+7b7rP8lkDZIJgW1iYyWtUGizCL1uit/SCacTl05hrYCe7ry3jawVdOINnjnJY1pyedBGxRMLuXnzCA==]
+[traceNo] = [772024]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [392003312127067720248]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331212706]
+[txnTime] = [20200331212706]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[l07r3F57ypj3onoytRcUlf59MLUa+0Nz9AlsnkvuQui5OGpN7vDzfU8ZWrYU65mL9M6EsBxMl8a+lvw14b3mHBBt3jSO5XcbsfhMWp/Cz6ZlIoBu37fMaurwOphW20b3UYb224NjaxvSDWbycMrSz5Jezi1rHHvUMqhS/XrzxxETr+duI/ZQoBiuHYxg3mnGkyl6YwYf0J5nuN5Z7f86v1KltnD8GSU4pJUEqfvkDhdVnvBBvTTFzGp+HKwzo3oiZallMw0+7b7rP8lkDZIJgW1iYyWtUGizCL1uit/SCacTl05hrYCe7ry3jawVdOINnjnJY1pyedBGxRMLuXnzCA==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585661225006149582&queryId=392003312127067720248&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=772024&traceTime=0331212706&txnAmt=1000&txnSubType=01&txnTime=20200331212706&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585661225006149582]
+[txnSubType] = [01]
+[signature] = [l07r3F57ypj3onoytRcUlf59MLUa+0Nz9AlsnkvuQui5OGpN7vDzfU8ZWrYU65mL9M6EsBxMl8a+lvw14b3mHBBt3jSO5XcbsfhMWp/Cz6ZlIoBu37fMaurwOphW20b3UYb224NjaxvSDWbycMrSz5Jezi1rHHvUMqhS/XrzxxETr+duI/ZQoBiuHYxg3mnGkyl6YwYf0J5nuN5Z7f86v1KltnD8GSU4pJUEqfvkDhdVnvBBvTTFzGp+HKwzo3oiZallMw0+7b7rP8lkDZIJgW1iYyWtUGizCL1uit/SCacTl05hrYCe7ry3jawVdOINnjnJY1pyedBGxRMLuXnzCA==]
+[traceNo] = [772024]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [392003312127067720248]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331212706]
+[txnTime] = [20200331212706]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[l07r3F57ypj3onoytRcUlf59MLUa+0Nz9AlsnkvuQui5OGpN7vDzfU8ZWrYU65mL9M6EsBxMl8a+lvw14b3mHBBt3jSO5XcbsfhMWp/Cz6ZlIoBu37fMaurwOphW20b3UYb224NjaxvSDWbycMrSz5Jezi1rHHvUMqhS/XrzxxETr+duI/ZQoBiuHYxg3mnGkyl6YwYf0J5nuN5Z7f86v1KltnD8GSU4pJUEqfvkDhdVnvBBvTTFzGp+HKwzo3oiZallMw0+7b7rP8lkDZIJgW1iYyWtUGizCL1uit/SCacTl05hrYCe7ry3jawVdOINnjnJY1pyedBGxRMLuXnzCA==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585661225006149582&queryId=392003312127067720248&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=772024&traceTime=0331212706&txnAmt=1000&txnSubType=01&txnTime=20200331212706&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
+============================== SDK REQ MSG BEGIN ==============================
+[bizType] = [000201]
+[signPubKeyCert] = [-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----]
+[orderId] = [1585660855467748112]
+[txnSubType] = [01]
+[signature] = [BFLzHhBwx7ONpd022SMBTK6DCEr6EuhBdT7aoio+YimjP9sFgrZXK3NrWJ9NvaqtvEKJ5ZQPQmVYVyCrNyUN8ItNLVVG1VadDaICkKYzT242JScoZtsEBYhcnfOlNIGlU3bpk3K4r4gf2ow0IdUIP1fNuV3vrqYAzbnZ4iE7B4dLvNQLq4c2yzQVXDEZLHgB5ph9px3HGUruVmt3fKDWsHlqrCop7NxmsCJZioG92a2UTrcjPDQsgLvmhepB8BNyYfBnV933SQCUbf1JEkI9JUOSbfqhOMUeFMySJxA4kaxH1dZtS7xpRX9FOl9jYPyLUpk1KGx6aKTwoShtFbdSnw==]
+[traceNo] = [923901]
+[accNo] = [6216***********0018]
+[settleAmt] = [1000]
+[settleCurrencyCode] = [156]
+[settleDate] = [0331]
+[txnType] = [01]
+[encoding] = [UTF-8]
+[version] = [5.1.0]
+[queryId] = [212003312120569239018]
+[accessType] = [0]
+[respMsg] = [成功[0000000]]
+[traceTime] = [0331212056]
+[txnTime] = [20200331212056]
+[merId] = [777290058177050]
+[currencyCode] = [156]
+[respCode] = [00]
+[signMethod] = [01]
+[txnAmt] = [1000]
+==============================  SDK REQ MSG END  ==============================
+验签处理开始
+verify certificate chain succeed.
+签名原文：[BFLzHhBwx7ONpd022SMBTK6DCEr6EuhBdT7aoio+YimjP9sFgrZXK3NrWJ9NvaqtvEKJ5ZQPQmVYVyCrNyUN8ItNLVVG1VadDaICkKYzT242JScoZtsEBYhcnfOlNIGlU3bpk3K4r4gf2ow0IdUIP1fNuV3vrqYAzbnZ4iE7B4dLvNQLq4c2yzQVXDEZLHgB5ph9px3HGUruVmt3fKDWsHlqrCop7NxmsCJZioG92a2UTrcjPDQsgLvmhepB8BNyYfBnV933SQCUbf1JEkI9JUOSbfqhOMUeFMySJxA4kaxH1dZtS7xpRX9FOl9jYPyLUpk1KGx6aKTwoShtFbdSnw==]
+待验签返回报文串：[accNo=6216***********0018&accessType=0&bizType=000201&currencyCode=156&encoding=UTF-8&merId=777290058177050&orderId=1585660855467748112&queryId=212003312120569239018&respCode=00&respMsg=成功[0000000]&settleAmt=1000&settleCurrencyCode=156&settleDate=0331&signMethod=01&signPubKeyCert=-----BEGIN CERTIFICATE-----
+MIIEQzCCAyugAwIBAgIFEBJJZVgwDQYJKoZIhvcNAQEFBQAwWDELMAkGA1UEBhMC
+Q04xMDAuBgNVBAoTJ0NoaW5hIEZpbmFuY2lhbCBDZXJ0aWZpY2F0aW9uIEF1dGhv
+cml0eTEXMBUGA1UEAxMOQ0ZDQSBURVNUIE9DQTEwHhcNMTcxMTAxMDcyNDA4WhcN
+MjAxMTAxMDcyNDA4WjB3MQswCQYDVQQGEwJjbjESMBAGA1UEChMJQ0ZDQSBPQ0Ex
+MQ4wDAYDVQQLEwVDVVBSQTEUMBIGA1UECxMLRW50ZXJwcmlzZXMxLjAsBgNVBAMU
+JTA0MUBaMjAxNy0xMS0xQDAwMDQwMDAwOlNJR05AMDAwMDAwMDEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDIWO6AESrg+34HgbU9mSpgef0sl6avr1d
+bD/IjjZYM63SoQi3CZHZUyoyzBKodRzowJrwXmd+hCmdcIfavdvfwi6x+ptJNp9d
+EtpfEAnJk+4quriQFj1dNiv6uP8ARgn07UMhgdYB7D8aA1j77Yk1ROx7+LFeo7rZ
+Ddde2U1opPxjIqOPqiPno78JMXpFn7LiGPXu75bwY2rYIGEEImnypgiYuW1vo9UO
+G47NMWTnsIdy68FquPSw5FKp5foL825GNX3oJSZui8d2UDkMLBasf06Jz0JKz5AV
+blaI+s24/iCfo8r+6WaCs8e6BDkaijJkR/bvRCQeQpbX3V8WoTLVAgMBAAGjgfQw
+gfEwHwYDVR0jBBgwFoAUz3CdYeudfC6498sCQPcJnf4zdIAwSAYDVR0gBEEwPzA9
+BghggRyG7yoBATAxMC8GCCsGAQUFBwIBFiNodHRwOi8vd3d3LmNmY2EuY29tLmNu
+L3VzL3VzLTE0Lmh0bTA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vdWNybC5jZmNh
+LmNvbS5jbi9SU0EvY3JsMjQ4NzIuY3JsMAsGA1UdDwQEAwID6DAdBgNVHQ4EFgQU
+mQQLyuqYjES7qKO+zOkzEbvdFwgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMEMA0GCSqGSIb3DQEBBQUAA4IBAQAujhBuOcuxA+VzoUH84uoFt5aaBM3vGlpW
+KVMz6BUsLbIpp1ho5h+LaMnxMs6jdXXDh/du8X5SKMaIddiLw7ujZy1LibKy2jYi
+YYfs3tbZ0ffCKQtv78vCgC+IxUUurALY4w58fRLLdu8u8p9jyRFHsQEwSq+W5+bP
+MTh2w7cDd9h+6KoCN6AMI1Ly7MxRIhCbNBL9bzaxF9B5GK86ARY7ixkuDCEl4XCF
+JGxeoye9R46NqZ6AA/k97mJun//gmUjStmb9PUXA59fR5suAB5o/5lBySZ8UXkrI
+pp/iLT8vIl1hNgLh0Ghs7DBSx99I+S3VuUzjHNxL6fGRhlix7Rb8
+-----END CERTIFICATE-----&traceNo=923901&traceTime=0331212056&txnAmt=1000&txnSubType=01&txnTime=20200331212056&txnType=01&version=5.1.0]
+验证签名成功
+[异步回调]--验证签名结果[成功].
